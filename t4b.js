@@ -8,11 +8,10 @@ var howMany = function() {
   return Number(count);
 
 };
-howMany();
 
 var today = new Date();
 var date1 = today.getFullYear();
-var date2 = prompt ('LEGAL WARNING!THIS SITE IS RESTIRICTED UNDER AGE OF 18 PERSONAL!!!.PLEASE ENTER YOUR BIRTH YEAR BELOW:');
+var date2 = howMany();
 var date3 = date1 - date2;
 var goodbye;
 
