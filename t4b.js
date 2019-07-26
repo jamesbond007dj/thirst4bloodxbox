@@ -28,15 +28,17 @@ var goodbye;
 
 
 if ( date3 > 18) {
+  
+  goodbye = "WELCOME TO BLOOD BATH"
 
-  goodbye = 'WELCOME TO BLOOD BATH';
+  document.write('<h4>' + goodbye + '</h4>');
 
 } else { 
 
   window.location = 'https://media.wired.com/photos/5bd262d4b1e96429a704ba17/master/w_942,c_limit/bloodyhand_top-1036615756.jpg';
 }
 
-document.write('<h4>' + goodbye + '</h4>')
+
 
 
 
