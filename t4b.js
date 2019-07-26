@@ -1,29 +1,46 @@
 var howMany = function() {
+
   var count = prompt ('LEGAL WARNING!THIS SITE IS RESTIRICTED UNDER AGE OF 18 PERSONAL!!!.PLEASE ENTER YOUR BIRTH YEAR BELOW:');
 
   while ( isNaN(count) ) {
+
     count = prompt('PLEASE ENTER A YEAR - 4 DIGIT NUMBER');
 
+
+
   }
+
   return Number(count);
+
 
 };
 
+
 var today = new Date();
+
 var date1 = today.getFullYear();
+
 var date2 = howMany();
+
 var date3 = date1 - date2;
+
 var goodbye;
 
-if ( date3 > 18) {
-  goodbye = 'LEGAL WARNING!!!IF YOU ARE UNDER 18 PLEASE CLICK BELOW BUTTON';
 
-} else {
-  confirm('ARE YOU 18 OR OLDER? LEGAL WARNING!!!"PLEASE CONFRIM');
-  goodbye = 'LEGAL WARNING!!!IF YOU ARE UNDER 18 PLEASE CLICK BELOW BUTTON';
+if ( date3 > 18) {
+
+  goodbye = 'WELCOME TO BLOOD BATH';
+
+} if (date3 < 70) {
+
+  goodbye = 'THIS WEB PAGE IS NOT RECOMMENDED FOR PERSONAL AGE OVER 70, IF SO PLEASE CLICK BELOW BUTTON';
+
+} else { 
+
+  window.location = 'https://media.wired.com/photos/5bd262d4b1e96429a704ba17/master/w_942,c_limit/bloodyhand_top-1036615756.jpg';
 }
 
+document.write('<h4>' + goodbye + '</h4>')
 
-document.write('<h4>' + goodbye + '</h4>');
 
 
