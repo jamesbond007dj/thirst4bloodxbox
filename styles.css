@@ -72,9 +72,10 @@ li a.active {
     color: rgb(31, 24, 133);
     background-color: #c377e6 ;
   }
+
 h1, h2, h3, p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #c377e6 
+    color: #c377e6; 
 }
 h1 {
     text-align: center;
@@ -98,8 +99,9 @@ h3 {
 
 h4 {
     text-align: center;
-    font-size: 15px;    
+    font-size: 10px;    
     width: 1300px;
+    
 }
 
 p {
