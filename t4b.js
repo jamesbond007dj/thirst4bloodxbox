@@ -17,7 +17,7 @@ var date3 = date1 - date2;
 var goodbye;
 
 if ( date3 > 18) {
-  goodbye = 'DO NOT TOUCH BELOW BUTTON!!! STAY IN BLOOD BATH!!!';
+  goodbye = 'LEGAL WARNING!!!IF YOU ARE UNDER 18 PLEASE CLICK BELOW BUTTON';
 
 } else {
   confirm('ARE YOU 18 OR OLDER? LEGAL WARNING!!!"PLEASE CONFRIM');
