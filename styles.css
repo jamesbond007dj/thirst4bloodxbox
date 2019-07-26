@@ -1,1 +1,118 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #d61100;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+article {
+    display: inline-flexbox;
+    float: left;   
+    width: 1300px;
+}
+
+figure {
+    display: inline-flexbox;
+    float: left;
+    margin: 0px 50px 0px 70px;
+    padding: 10px;
+    width: 1400px;
+}
+
+nav {
+    text-align: center;
+    margin: 0px 10px 10px 7px;
+    padding: 10px;
+    height: 50px;
+    width: 1200px;
+
+}
+
+uul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 5px solid #72339c;
+    background-color: #0e0b0b;  
+}
+
+ul {
+            
+    float: left;
+    padding: 10px;
+    display: inline-flexbox;
+    margin-left: 10px; 
+}     
+  
+li {
+    float: left;
+    padding: 10px;
+    display: inline-flexbox;
+    margin-left: 10px;  
+}
+  
+li a {
+    display: block;
+    float: left;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(226, 117, 190);
+    text-decoration: none;  
+}
+  
+li a:hover:not(.active) {
+    background-color: rgb(206, 64, 151);
+}
+  
+li a.active {
+    color: rgb(31, 24, 133);
+    background-color: #c377e6 ;
+  }
+h1, h2, h3, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c377e6 
+}
+h1 {
+    text-align: center;
+    font-size: 75px;
+    width: 1300px;
+}
+h2 {
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+    color: #e7e7e7;
+    width: 1300px;
+}
+h3 {
+    float: left;
+    font-size: 10px;
+    color: rgb(5, 5, 5);
+    padding: 25px;
+    width: 1300px;   
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;    
+    width: 1300px;
+}
+
+p {
+    display: block;
+    text-align: center;
+    color: rgb(226, 117, 190);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+}
+ 
+
 
