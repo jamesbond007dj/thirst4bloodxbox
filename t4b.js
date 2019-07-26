@@ -31,7 +31,7 @@ if ( date3 > 18) {
 
   goodbye = 'WELCOME TO BLOOD BATH';
 
-} if (date3 < 70) {
+} if (date3 > 70) {
 
   goodbye = 'THIS WEB PAGE IS NOT RECOMMENDED FOR PERSONAL AGE UNDER 18 & OVER 70. IF SO, PLEASE CLICK BELOW BUTTON';
 
