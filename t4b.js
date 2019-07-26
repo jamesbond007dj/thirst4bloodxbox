@@ -27,7 +27,7 @@ var date3 = date1 - date2;
 var goodbye;
 
 
-if ( date3 > 18) {
+if ( date3 < 18) {
 
   goodbye = 'WELCOME TO BLOOD BATH';
 
